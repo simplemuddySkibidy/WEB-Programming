@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nurbolot's Creative Portfolio</title>
+</head>
+<body>
+
+    <header>
+        <p>Continue your portfolio</p>
+        <p>ALA-TOO COLLEGE WEB PROGRAMMING</p>
+        
+        <h1>Aida's Creative Portfolio</h1>
+        <p>Student. Curious learner. Future web developer.</p>
+        
+        <nav>
+            <a href="#about">About me</a>
+            <a href="#skills">Skills</a>
+            <a href="#work">My work</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <main>
+        
+        <img src="hero (2).svg" alt="">
+
+        <section id="about">
+            <h2>01 About Me</h2>
+            <p>Hello! I'm Nurba, a student at Ala-Too College in Bishkek.</p>
+            <p>I enjoy building useful pages, taking photos and learning how the web works.<br>
+            My current goal is to create a complete portfolio with clear and meaningful HTML.</p>
+            <p>Small steps, regular practice, better websites.</p>
+            
+            <details>
+                <summary>What am I learning this month?</summary>
+                <p>Currently focusing on HTML5 semantics and web accessibility.</p>
+            </details>
+        </section>
+
+        <section id="skills">
+            <h2>02 Skills & Learning</h2>
+            <ul>
+                <li>Semantic page structure: header, main and footer</li>
+                <li>Links, lists and images</li>
+                <li>Audio, video and accessible form labels</li>
+            </ul>
+
+            <p>
+                <label for="portfolio-progress">Portfolio sections completed: </label>
+                <progress id="portfolio-progress" value="3" max="5"></progress> 3 / 5
+            </p>
+
+            <p>
+                <label for="html-assessment">My HTML self-assessment: </label>
+                <meter id="html-assessment" min="0" max="100" value="70"></meter> 70 / 100
+            </p>
+
+            <p>Today's written result: 3 sections completed</p>
+
+            <table border="1">
+                <caption>My weekly learning plan</caption>
+                <thead>
+                    <tr>
+                        <th>Day</th>
+                        <th>Topic</th>
+                        <th>Goal</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Monday</td>
+                        <td>HTML structure</td>
+                        <td>Organize my page</td>
+                    </tr>
+                    <tr>
+                        <td>Wednesday</td>
+                        <td>Media and forms</td>
+                        <td>Add a contact form</td>
+                    </tr>
+                    <tr>
+                        <td>Friday</td>
+                        <td>Practice</td>
+                        <td>Check and improve my work</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section id="work">
+            <h2>03 My Work</h2>
+            
+            <h3>My First Portfolio</h3>
+            <p><small>Started on 1 September 2026 - Personal project</small></p>
+            
+            <img src="project (2).svg" alt="">
+
+            <p>A simple page that presents my skills and learning journey.</p>
+            <p>I built this page to introduce myself and keep my work in one place.</p>
+            
+            <ol>
+                <li>Create the header, main content and footer.</li>
+                <li>Add About, Skills, Work and Contact sections.</li>
+                <li>Test links, media files and form labels.</li>
+            </ol>
+
+            <details>
+                <summary>What was difficult?</summary>
+                <p>Understanding the difference between div and semantic tags.</p>
+            </details>
+
+            <p><strong><a href="#contact">Ask me about this project </a></strong></p>
+
+            <h3>Media Practice</h3>
+            <p>A short sample sound:</p>
+            <audio controls>
+                <source src="sample.mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio>
+
+            <p>A short portfolio preview:</p>
+            <video controls width="600" poster="preview-poster.jpg">
+                <source src="portfolio-demo (2).mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </section>
+
+        <section id="contact">
+            <h2>04 Let's Connect</h2>
+            <p>Have a question about my work? Write a practice message below.</p>
+            
+            <form action="#" method="post">
+                <fieldset>
+                    <legend>Contact form</legend>
+                    
+                    <p>
+                        <label for="name">Your name</label><br>
+                        <input type="text" id="name" name="name" required>
+                    </p>
+                    
+                    <p>
+                        <label for="email">Email address</label><br>
+                        <input type="email" id="email" name="email" required>
+                    </p>
+                    
+                    <p>
+                        <label for="topic">Topic</label><br>
+                        <select id="topic" name="topic">
+                            <option value="project">My project</option>
+                            <option value="freelance">Freelance</option>
+                            <option value="other">Other</option>
+                        </select>
+                    </p>
+                    
+                    <p>
+                        <label for="message">Message</label><br>
+                        <textarea id="message" name="message" rows="4" cols="50" required></textarea>
+                    </p>
+                    
+                    <p>
+                        <button type="submit" disabled>Send message</button>
+                        <button type="reset">Clear form</button>
+                    </p>
+                </fieldset>
+            </form>
+            <p><small>Practice form: sending is disabled until a handler is connected.</small></p>
+        </section>
+    </main>
+
+    <hr>
+
+    <footer>
+        <p>2026 Aida Made with HTML Bishkek, Kyrgyzstan</p>
+        <p><a href="#"></a> Back to top</a></p>
+    </footer>
+
+</body>
+</html>
